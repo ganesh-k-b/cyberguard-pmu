@@ -1,16 +1,71 @@
-# React + Vite
+# 🔒 CyberGuard-PMU
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CyberGuard-PMU is a web-based cybersecurity monitoring system for Phasor Measurement Unit (PMU) data in smart power grids. The application provides a modern dashboard for monitoring system status, visualizing PMU data, and detecting suspicious cyber activities.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📊 Real-time PMU monitoring dashboard
+- 🔒 Cybersecurity threat detection
+- ⚠️ Anomaly and attack alerts
+- 📈 Interactive charts and visualizations
+- 🖥️ Responsive user interface
+- 🤖 AI-ready architecture for future anomaly detection
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+public/
+index.html
+package.json
+vite.config.js
+```
+
+## 💻 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ganesh-k-b/cyberguard-pmu.git
+```
+
+Move into the project:
+
+```bash
+cd cyberguard-pmu
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## 🎯 Future Enhancements
+
+- Backend API integration
+- Database connectivity
+- AI-based intrusion detection
+- Live PMU data streaming
+- User authentication
+- Cloud deployment
+
+## 👨‍💻 Author
+
+Ganesh K B
+
+CyberGuard-PMU is developed as an academic and cybersecurity learning project focusing on smart grid security and PMU monitoring.
